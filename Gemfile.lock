@@ -29,6 +29,7 @@ GEM
       activesupport (= 3.0.3)
     activesupport (3.0.3)
     arel (2.0.4)
+    bcrypt-ruby (2.1.2)
     builder (2.1.2)
     capybara (0.3.9)
       culerity (>= 0.2.4)
@@ -50,6 +51,9 @@ GEM
       cucumber (>= 0.8.0)
     culerity (0.2.12)
     database_cleaner (0.6.0)
+    devise (1.1.5)
+      bcrypt-ruby (~> 2.1.2)
+      warden (~> 1.0.2)
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -128,6 +132,8 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.23)
+    warden (1.0.2)
+      rack (>= 1.0.0)
 
 PLATFORMS
   ruby
@@ -137,6 +143,7 @@ DEPENDENCIES
   cucumber
   cucumber-rails
   database_cleaner
+  devise
   factory_girl_rails
   haml-rails (= 0.3.4)
   launchy
